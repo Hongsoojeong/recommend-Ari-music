@@ -144,7 +144,7 @@ export default function MusicPlayer() {
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white p-2 sm:p-4 md:p-6 lg:p-8 flex flex-col">
-      <Card className="w-full max-w-sm sm:max-w-md md:max-w-lg lg:max-w-2xl mx-auto bg-zinc-900 border-zinc-800 shadow-lg rounded-xl overflow-hidden flex-grow">
+      <Card className="w-full max-w-none sm:max-w-md md:max-w-lg lg:max-w-2xl sm:mx-auto bg-zinc-900 border-zinc-800 shadow-lg rounded-none sm:rounded-xl overflow-hidden flex-grow">
         <CardHeader className="p-0 border-b border-zinc-800 relative">
           <img
             src={artistData?.images?.[0]?.url || "/placeholder.svg?height=400&width=600&query=ariana grande profile"}
@@ -156,7 +156,7 @@ export default function MusicPlayer() {
           <div className="absolute inset-0 bg-gradient-to-t from-zinc-900 to-transparent" />
           <div className="absolute bottom-0 left-0 p-3 sm:p-4 md:p-6 text-white z-10">
             <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold drop-shadow-lg">{artistData?.name || "Unknown Artist"}</h1>
-            <p className="text-zinc-200 text-sm sm:text-base md:text-lg mt-1 drop-shadow-md">
+            <p className="text-zinc-200 text-xs sm:text-base md:text-lg mt-1 drop-shadow-md">
               <span className="font-semibold text-rose-400">{formatFollowers(artistData?.followers?.total || 0)}</span>{" "}
               Followers
             </p>
@@ -164,7 +164,7 @@ export default function MusicPlayer() {
               {artistData?.genres &&
                 Array.isArray(artistData.genres) &&
                 artistData.genres.map((genre) => (
-                  <div key={genre} className="bg-zinc-700 text-zinc-200 px-2 py-1 rounded text-xs sm:text-sm">
+                  <div key={genre} className="bg-zinc-700 text-zinc-200 px-1.5 py-0.5 rounded text-xs">
                     {genre}
                   </div>
                 ))}
@@ -173,7 +173,7 @@ export default function MusicPlayer() {
         </CardHeader>
 
         <CardContent className="p-3 sm:p-4 md:p-6">
-          <h2 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Popular Tracks</h2>
+          <h2 className="text-base sm:text-lg md:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Popular Tracks</h2>
           <ScrollArea className="h-[250px] sm:h-[300px] pr-2 sm:pr-4">
             <div className="grid gap-2 sm:gap-3">
               {popularTracks &&
@@ -196,24 +196,24 @@ export default function MusicPlayer() {
                       alt={`${track.name} album cover`}
                       width={64}
                       height={64}
-                      className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-md object-cover flex-shrink-0"
+                      className="w-10 h-10 sm:w-12 sm:h-12 md:w-16 md:h-16 rounded-md object-cover flex-shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <p className="font-medium text-zinc-100 truncate text-sm sm:text-base">{track.name}</p>
-                      <p className="text-xs sm:text-sm text-zinc-400 truncate">{track.album?.name}</p>
+                      <p className="font-medium text-zinc-100 text-xs sm:text-sm md:text-base leading-tight break-words pr-2">{track.name}</p>
+                      <p className="text-xs text-zinc-400 leading-tight break-words pr-2">{track.album?.name}</p>
                       {track.hashtags && Array.isArray(track.hashtags) && track.hashtags.length > 0 && (
-                        <div className="flex flex-wrap gap-1 mt-1">
-                          {track.hashtags.slice(0, 3).map((tag) => (
+                        <div className="flex flex-wrap gap-0.5 sm:gap-1 mt-1">
+                          {track.hashtags.slice(0, 2).map((tag) => (
                             <div
                               key={tag}
-                              className="text-xs px-1.5 sm:px-2 py-0.5 bg-zinc-700 text-zinc-300 border-zinc-600 rounded"
+                              className="text-xs px-1 sm:px-1.5 py-0.5 bg-zinc-700 text-zinc-300 border-zinc-600 rounded"
                             >
                               {tag}
                             </div>
                           ))}
-                          {track.hashtags.length > 3 && (
+                          {track.hashtags.length > 2 && (
                             <div className="text-xs px-1.5 sm:px-2 py-0.5 bg-zinc-700 text-zinc-300 border-zinc-600 rounded">
-                              +{track.hashtags.length - 3}
+                              +{track.hashtags.length - 2}
                             </div>
                           )}
                         </div>
@@ -221,14 +221,14 @@ export default function MusicPlayer() {
                     </div>
                     {/* 선택/해제 상태 표시 */}
                     {selectedTracks.some((t) => t.id === track.id) && (
-                      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-rose-400 flex-shrink-0" />
+                      <CheckCircle className="w-4 h-4 text-rose-400 flex-shrink-0" />
                     )}
                   </div>
                 ))}
             </div>
           </ScrollArea>
           <div className="mt-4 sm:mt-6 border-t border-zinc-800 pt-4 sm:pt-6">
-            <h2 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Selected Tracks ({selectedTracks.length}/5)</h2>
+            <h2 className="text-base sm:text-lg md:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Selected Tracks ({selectedTracks.length}/5)</h2>
             <p className="text-zinc-500 text-xs sm:text-sm mb-3 sm:mb-4">
               Select 3 to 5 tracks from the "Popular Tracks" list to get personalized recommendations based on their
               hashtags and genres.
@@ -236,7 +236,7 @@ export default function MusicPlayer() {
             {selectedTracks.length === 0 ? (
               <p className="text-zinc-500 text-center text-sm">Please select 3-5 tracks from Popular Tracks.</p>
             ) : (
-              <div className="grid grid-cols-1 gap-2 sm:gap-3">
+              <div className="grid grid-cols-1 gap-2">
                 {selectedTracks.map((track) => (
                   <div key={track.id} className="bg-zinc-800 border-zinc-700 flex items-center p-2 sm:p-3 gap-2 sm:gap-3 rounded-lg">
                     <img
@@ -249,8 +249,8 @@ export default function MusicPlayer() {
                       className="w-10 h-10 sm:w-12 sm:h-12 rounded-md object-cover flex-shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <p className="font-medium text-zinc-100 text-sm truncate">{track.name}</p>
-                      <p className="text-xs text-zinc-400 truncate">{track.album?.name}</p>
+                      <p className="font-medium text-zinc-100 text-xs sm:text-sm leading-tight break-words pr-2">{track.name}</p>
+                      <p className="text-xs text-zinc-400 leading-tight break-words pr-2">{track.album?.name}</p>
                     </div>
                     {/* 선택된 트랙 개별 재생 버튼 */}
                     <Button
@@ -286,7 +286,7 @@ export default function MusicPlayer() {
           </div>
           {recommendedTracks.length > 0 && (
             <div className="mt-6 sm:mt-8 border-t border-zinc-800 pt-4 sm:pt-6">
-              <h2 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Recommended Tracks</h2>
+              <h2 className="text-base sm:text-lg md:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Recommended Tracks</h2>
               <div className="grid gap-2 sm:gap-3">
                 {recommendedTracks.map((track) => (
                   <div
@@ -305,8 +305,8 @@ export default function MusicPlayer() {
                       className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-md object-cover flex-shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <p className="font-medium text-zinc-100 truncate text-sm sm:text-base">{track.name}</p>
-                      <p className="text-xs sm:text-sm text-zinc-400 truncate">{track.album?.name}</p>
+                      <p className="font-medium text-zinc-100 text-xs sm:text-sm md:text-base leading-tight break-words pr-2">{track.name}</p>
+                      <p className="text-xs sm:text-sm text-zinc-400 leading-tight break-words pr-2">{track.album?.name}</p>
                       {track.hashtags && Array.isArray(track.hashtags) && track.hashtags.length > 0 && (
                         <div className="flex flex-wrap gap-1 mt-1">
                           {track.hashtags.slice(0, 3).map((tag) => (
@@ -334,7 +334,7 @@ export default function MusicPlayer() {
           {/* 랜덤 추천곡 섹션 추가 */}
           {randomTracks.length > 0 && (
             <div className="mt-6 sm:mt-8 border-t border-zinc-800 pt-4 sm:pt-6">
-              <h2 className="text-lg sm:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Random Picks for You</h2>
+              <h2 className="text-base sm:text-lg md:text-xl font-semibold mb-3 sm:mb-4 text-zinc-200">Random Picks for You</h2>
               <div className="grid gap-2 sm:gap-3">
                 {randomTracks.map((track) => (
                   <div
@@ -352,8 +352,8 @@ export default function MusicPlayer() {
                       className="w-12 h-12 sm:w-14 sm:h-14 md:w-16 md:h-16 rounded-md object-cover flex-shrink-0"
                     />
                     <div className="flex-1 min-w-0">
-                      <p className="font-medium text-zinc-100 truncate text-sm sm:text-base">{track.name}</p>
-                      <p className="text-xs sm:text-sm text-zinc-400 truncate">{track.album?.name}</p>
+                      <p className="font-medium text-zinc-100 text-xs sm:text-sm md:text-base leading-tight break-words pr-2">{track.name}</p>
+                      <p className="text-xs sm:text-sm text-zinc-400 leading-tight break-words pr-2">{track.album?.name}</p>
                       {track.hashtags && Array.isArray(track.hashtags) && track.hashtags.length > 0 && (
                         <div className="flex flex-wrap gap-1 mt-1">
                           {track.hashtags.slice(0, 3).map((tag) => (
@@ -379,7 +379,7 @@ export default function MusicPlayer() {
           )}
         </CardContent>
         <CardFooter className="p-3 sm:p-4 border-t border-zinc-800 text-center text-zinc-500 text-xs">
-          <p>Powered by v0 & Spotify API (Simulated Data)</p>
+          <p>used Spotify API</p>
         </CardFooter>
       </Card>
       <TrackDetailModal track={selectedTrackInModal} isOpen={isModalOpen} onClose={() => setIsModalOpen(false)} />
