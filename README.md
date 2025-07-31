@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# 🎧 AriMatch
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**AriMatch** is a fan-made Ariana Grande music recommendation web app.  
+Pick 3–5 of your favorite Ariana tracks and get personalized suggestions — or enjoy a surprise random pick!
 
-## Available Scripts
+**AriMatch**는 아리아나 그란데 노래 추천 웹앱입니다.  
+취향에 맞는 아리아나 그란데의 노래 3~5곡을 선택하면, 유사한 장르나 랜덤 추천 노래를 보여줍니다.
 
-In the project directory, you can run:
+---
 
-### `npm start`
+## 🌐 웹 사이트 링크
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+👉 [AriMatch]([https://your-deployed-site-url.com](https://arimatch.onrender.com))  
+💡 *Hosted with Render*
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 🌟 Features | 주요 기능
 
-### `npm test`
+- 🎵 **Select Ariana's Popular Songs**  
+  - **EN**: Choose 3 to 5 tracks from Ariana’s popular songs list.  
+  - **KR**: 아리아나 그란데의 인기 곡 중 3~5곡을 선택하세요.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- 🎶 **Genre-Based Recommendations**  
+  - **EN**: Get similar track suggestions based on genre and audio features using the Spotify API.  
+  - **KR**: 장르들을 분석해 유사한 곡을 추천합니다.
 
-### `npm run build`
+- 🔀 **Random Surprise Mode**  
+  - **EN**: Discover hidden gems randomly selected beyond your picks.  
+  - **KR**: 선택한 곡 외에도 무작위로 새로운 노래를 추천합니다.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+---
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## 🛠️ Tech Stack | 기술 스택
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- **Python** – data preprocessing (Spotify API)  
+- **React** – frontend interface  
+- **Tailwind CSS** – UI design
+- **Render** - Server
