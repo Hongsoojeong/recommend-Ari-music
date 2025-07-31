@@ -9,9 +9,8 @@ Pick 3–5 of your favorite Ariana tracks and get personalized suggestions — o
 ---
 
 ## 🌐 웹 사이트 링크
-
-👉 [AriMatch]([https://your-deployed-site-url.com](https://arimatch.onrender.com))  
-💡 *Hosted with Render*
+👉 [AriMatch] (https://arimatch.onrender.com)
+- Hosted with Render
 ---
 
 ## 🌟 Features | 주요 기능
