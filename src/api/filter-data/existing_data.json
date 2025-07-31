@@ -1,0 +1,840 @@
+[
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/5EYKrEDnKhhcNxGedaRQeK"
+                },
+                "href": "https://api.spotify.com/v1/albums/5EYKrEDnKhhcNxGedaRQeK",
+                "id": "5EYKrEDnKhhcNxGedaRQeK",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "eternal sunshine",
+                "hashtags": ["#break up", "#R&B", "#pop"],
+                "release_date": "2024-03-08",
+                "release_date_precision": "day",
+                "total_tracks": 13,
+                "type": "album",
+                "uri": "spotify:album:5EYKrEDnKhhcNxGedaRQeK"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 228639,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM72317276"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/51ZQ1vr10ffzbwIjDCwqm4"
+            },
+            "href": "https://api.spotify.com/v1/tracks/51ZQ1vr10ffzbwIjDCwqm4",
+            "id": "51ZQ1vr10ffzbwIjDCwqm4",
+            "is_local": false,
+            "is_playable": true,
+            "name": "we can't be friends (wait for your love)",
+            "hashtags": ["#break up", "#Synth-pop", "#Europop", "#Electropop", "#powerpop"],
+            "popularity": 87,
+            "preview_url": null,
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:51ZQ1vr10ffzbwIjDCwqm4",
+            "youtubeVideoId" : "UdRAXWNvjzE"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/5EYKrEDnKhhcNxGedaRQeK"
+                },
+                "href": "https://api.spotify.com/v1/albums/5EYKrEDnKhhcNxGedaRQeK",
+                "id": "5EYKrEDnKhhcNxGedaRQeK",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b2738b58d20f1b77295730db15b4",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e028b58d20f1b77295730db15b4",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d000048518b58d20f1b77295730db15b4",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "eternal sunshine",
+                "hashtags": ["#break up", "#Synth-pop", "#R&B", "#Electropop"],
+                "release_date": "2024-03-08",
+                "release_date_precision": "day",
+                "total_tracks": 13,
+                "type": "album",
+                "uri": "spotify:album:5EYKrEDnKhhcNxGedaRQeK"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 163381,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM72317274"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/142PiXzA84lmEw2RstFHFa"
+            },
+            "href": "https://api.spotify.com/v1/tracks/142PiXzA84lmEw2RstFHFa",
+            "id": "142PiXzA84lmEw2RstFHFa",
+            "is_local": false,
+            "is_playable": true,
+            "name": "supernatural",
+            "popularity": 86,
+            "preview_url": null,
+            "track_number": 6,
+            "type": "track",
+            "uri": "spotify:track:142PiXzA84lmEw2RstFHFa",
+            "youtubeVideoId" : "4bwnO0FQp1s"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+                        "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                        "name": "The Weeknd",
+                        "type": "artist",
+                        "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/4ZyeHIgdujClXSjC2cSqSb"
+                },
+                "href": "https://api.spotify.com/v1/albums/4ZyeHIgdujClXSjC2cSqSb",
+                "id": "4ZyeHIgdujClXSjC2cSqSb",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273b5097b81179824803664aaaf",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02b5097b81179824803664aaaf",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00004851b5097b81179824803664aaaf",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "After Hours (Deluxe)",
+                "hashtags": ["#break up", "#R&B", "#pop", "#dancepop"],
+                "release_date": "2020-03-20",
+                "release_date_precision": "day",
+                "total_tracks": 18,
+                "type": "album",
+                "uri": "spotify:album:4ZyeHIgdujClXSjC2cSqSb"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/1Xyo4u8uXC1ZmMpatF05PJ"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/1Xyo4u8uXC1ZmMpatF05PJ",
+                    "id": "1Xyo4u8uXC1ZmMpatF05PJ",
+                    "name": "The Weeknd",
+                    "type": "artist",
+                    "uri": "spotify:artist:1Xyo4u8uXC1ZmMpatF05PJ"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 191013,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUG12101839"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1oFAF1hdPOickyHgbuRjyX"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1oFAF1hdPOickyHgbuRjyX",
+            "id": "1oFAF1hdPOickyHgbuRjyX",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Save Your Tears (Remix) (with Ariana Grande) - Bonus Track",
+            "hashtags": ["#Synth-pop", "#Alternative R&B", "R&B"],
+            "popularity": 83,
+            "preview_url": null,
+            "track_number": 18,
+            "type": "track",
+            "uri": "spotify:track:1oFAF1hdPOickyHgbuRjyX",
+            "youtubeVideoId" : "LIIDh-qI9oI"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/6EVYTRG1drKdO8OnIQBeEj"
+                },
+                "href": "https://api.spotify.com/v1/albums/6EVYTRG1drKdO8OnIQBeEj",
+                "id": "6EVYTRG1drKdO8OnIQBeEj",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273deec12a28d1e336c5052e9aa",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02deec12a28d1e336c5052e9aa",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00004851deec12a28d1e336c5052e9aa",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "My Everything (Deluxe)",
+                "hashtags": ["#Electronic", "#Hip Hop", "#Funk", "Soul", "#pop"],
+                "release_date": "2014-08-22",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:6EVYTRG1drKdO8OnIQBeEj"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 197266,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71409723"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/7xoUc6faLbCqZO6fQEYprd"
+            },
+            "href": "https://api.spotify.com/v1/tracks/7xoUc6faLbCqZO6fQEYprd",
+            "id": "7xoUc6faLbCqZO6fQEYprd",
+            "is_local": false,
+            "is_playable": true,
+            "name": "One Last Time",
+            "hashtags": ["#R&B", "#Soul", "#pop"],
+            "popularity": 86,
+            "preview_url": null,
+            "track_number": 3,
+            "type": "track",
+            "uri": "spotify:track:7xoUc6faLbCqZO6fQEYprd",
+            "youtubeVideoId" : "Wg92RrNhB8s"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/1QRP5lutJodPixU2EWfnD7"
+                },
+                "href": "https://api.spotify.com/v1/albums/1QRP5lutJodPixU2EWfnD7",
+                "id": "1QRP5lutJodPixU2EWfnD7",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27333342c57a9b2c4e04c97b3f5",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0233342c57a9b2c4e04c97b3f5",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000485133342c57a9b2c4e04c97b3f5",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "Dangerous Woman",
+                "hashtags": ["#R&B", "#pop", "Contemporary R&B"],
+                "release_date": "2016-04-01",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:1QRP5lutJodPixU2EWfnD7"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 244453,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71601827"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/76FZM38RC8XaAjJ77CVTNe"
+            },
+            "href": "https://api.spotify.com/v1/tracks/76FZM38RC8XaAjJ77CVTNe",
+            "id": "76FZM38RC8XaAjJ77CVTNe",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Into You",
+            "hashtags": ["#dancepop"],
+            "popularity": 83,
+            "preview_url": null,
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:76FZM38RC8XaAjJ77CVTNe",
+            "youtubeVideoId" : "kSikdqib-gk"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2xqTa2dCR54yYHEcttiXyD"
+                },
+                "href": "https://api.spotify.com/v1/albums/2xqTa2dCR54yYHEcttiXyD",
+                "id": "2xqTa2dCR54yYHEcttiXyD",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27396094d0c80f0f321da705f88",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0296094d0c80f0f321da705f88",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000485196094d0c80f0f321da705f88",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "eternal sunshine deluxe: brighter days ahead (a cappella version)",
+                "hashtags": ["#pop", "#R&B", "Contemporary R&B", "#Synth-pop"],
+                "release_date": "2025-03-27",
+                "release_date_precision": "day",
+                "total_tracks": 38,
+                "type": "album",
+                "uri": "spotify:album:2xqTa2dCR54yYHEcttiXyD"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 198320,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM72501915"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/1edcyazKIdKrIuz9cWpXU6"
+            },
+            "href": "https://api.spotify.com/v1/tracks/1edcyazKIdKrIuz9cWpXU6",
+            "id": "1edcyazKIdKrIuz9cWpXU6",
+            "is_local": false,
+            "is_playable": true,
+            "name": "twilight zone",
+            "hashtags": ["#pop", "#Synth-pop"],
+            "popularity": 78,
+            "preview_url": null,
+            "track_number": 15,
+            "type": "track",
+            "uri": "spotify:track:1edcyazKIdKrIuz9cWpXU6",
+            "youtubeVideoId" : "5UE2kT5LxE0"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2fYhqwDWXjbpjaIJPEfKFw"
+                },
+                "href": "https://api.spotify.com/v1/albums/2fYhqwDWXjbpjaIJPEfKFw",
+                "id": "2fYhqwDWXjbpjaIJPEfKFw",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27356ac7b86e090f307e218e9c8",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0256ac7b86e090f307e218e9c8",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000485156ac7b86e090f307e218e9c8",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "thank u, next",
+                "hashtags": ["#pop", "#R&B", "Contemporary R&B"],
+                "release_date": "2019-02-08",
+                "release_date_precision": "day",
+                "total_tracks": 12,
+                "type": "album",
+                "uri": "spotify:album:2fYhqwDWXjbpjaIJPEfKFw"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 178626,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71900110"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/6ocbgoVGwYJhOv1GgI9NsF"
+            },
+            "href": "https://api.spotify.com/v1/tracks/6ocbgoVGwYJhOv1GgI9NsF",
+            "id": "6ocbgoVGwYJhOv1GgI9NsF",
+            "is_local": false,
+            "is_playable": true,
+            "name": "7 rings",
+            "hashtags": ["#pop", "#trap", "Hip-hop"],
+            "popularity": 85,
+            "preview_url": null,
+            "track_number": 10,
+            "type": "track",
+            "uri": "spotify:track:6ocbgoVGwYJhOv1GgI9NsF",
+            "youtubeVideoId" : "QYh6mYIJG2Y"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/1QRP5lutJodPixU2EWfnD7"
+                },
+                "href": "https://api.spotify.com/v1/albums/1QRP5lutJodPixU2EWfnD7",
+                "id": "1QRP5lutJodPixU2EWfnD7",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27333342c57a9b2c4e04c97b3f5",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0233342c57a9b2c4e04c97b3f5",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000485133342c57a9b2c4e04c97b3f5",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "Dangerous Woman",
+                "hashtags": ["#pop", "#R&B", "Soul"],
+                "release_date": "2016-04-01",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:1QRP5lutJodPixU2EWfnD7"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 235946,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71601826"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/3nef5W8jTkXrOKgCu4kmq7"
+            },
+            "href": "https://api.spotify.com/v1/tracks/3nef5W8jTkXrOKgCu4kmq7",
+            "id": "3nef5W8jTkXrOKgCu4kmq7",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Dangerous Woman",
+            "hashtags": ["#pop", "#R&B", "Soul"],
+            "popularity": 82,
+            "preview_url": null,
+            "track_number": 2,
+            "type": "track",
+            "uri": "spotify:track:3nef5W8jTkXrOKgCu4kmq7",
+            "youtubeVideoId" : "TFrMDGfW_Sg"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                        "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                        "name": "Ariana Grande",
+                        "type": "artist",
+                        "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/1QRP5lutJodPixU2EWfnD7"
+                },
+                "href": "https://api.spotify.com/v1/albums/1QRP5lutJodPixU2EWfnD7",
+                "id": "1QRP5lutJodPixU2EWfnD7",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b27333342c57a9b2c4e04c97b3f5",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e0233342c57a9b2c4e04c97b3f5",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000485133342c57a9b2c4e04c97b3f5",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "Dangerous Woman",
+                "hashtags": ["#pop", "#R&B", "Soul"],
+                "release_date": "2016-04-01",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:1QRP5lutJodPixU2EWfnD7"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0hCNtLu0JehylgoiP8L4Gh"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0hCNtLu0JehylgoiP8L4Gh",
+                    "id": "0hCNtLu0JehylgoiP8L4Gh",
+                    "name": "Nicki Minaj",
+                    "type": "artist",
+                    "uri": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 226160,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71602107"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/44ONERBHALxftQNWq6dmyd"
+            },
+            "href": "https://api.spotify.com/v1/tracks/44ONERBHALxftQNWq6dmyd",
+            "id": "44ONERBHALxftQNWq6dmyd",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Side To Side",
+            "hashtags": ["#pop", "#reggae fusion"],
+            "popularity": 81,
+            "preview_url": null,
+            "track_number": 5,
+            "type": "track",
+            "uri": "spotify:track:44ONERBHALxftQNWq6dmyd"
+        },
+        {
+            "album": {
+                "album_type": "album",
+                "artists": [
+                    {
+                        "external_urls": {
+                            "spotify": "https://open.spotify.com/artist/2gsggkzM5R49q6jpPvazou"
+                        },
+                        "href": "https://api.spotify.com/v1/artists/2gsggkzM5R49q6jpPvazou",
+                        "id": "2gsggkzM5R49q6jpPvazou",
+                        "name": "Jessie J",
+                        "type": "artist",
+                        "uri": "spotify:artist:2gsggkzM5R49q6jpPvazou"
+                    }
+                ],
+                "external_urls": {
+                    "spotify": "https://open.spotify.com/album/2rDIivxBafNKpgRqlzIRSb"
+                },
+                "href": "https://api.spotify.com/v1/albums/2rDIivxBafNKpgRqlzIRSb",
+                "id": "2rDIivxBafNKpgRqlzIRSb",
+                "images": [
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d0000b273930f686fe89425c7b6bf9a7d",
+                        "height": 640,
+                        "width": 640
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00001e02930f686fe89425c7b6bf9a7d",
+                        "height": 300,
+                        "width": 300
+                    },
+                    {
+                        "url": "https://i.scdn.co/image/ab67616d00004851930f686fe89425c7b6bf9a7d",
+                        "height": 64,
+                        "width": 64
+                    }
+                ],
+                "is_playable": true,
+                "name": "Sweet Talker (Deluxe Version)",
+                "hashtags": ["#pop", "#R&B", "Soul"],
+                "release_date": "2014-10-10",
+                "release_date_precision": "day",
+                "total_tracks": 15,
+                "type": "album",
+                "uri": "spotify:album:2rDIivxBafNKpgRqlzIRSb"
+            },
+            "artists": [
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/2gsggkzM5R49q6jpPvazou"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/2gsggkzM5R49q6jpPvazou",
+                    "id": "2gsggkzM5R49q6jpPvazou",
+                    "name": "Jessie J",
+                    "type": "artist",
+                    "uri": "spotify:artist:2gsggkzM5R49q6jpPvazou"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/66CXWjxzNUsdJxJ2JdwvnR"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/66CXWjxzNUsdJxJ2JdwvnR",
+                    "id": "66CXWjxzNUsdJxJ2JdwvnR",
+                    "name": "Ariana Grande",
+                    "type": "artist",
+                    "uri": "spotify:artist:66CXWjxzNUsdJxJ2JdwvnR"
+                },
+                {
+                    "external_urls": {
+                        "spotify": "https://open.spotify.com/artist/0hCNtLu0JehylgoiP8L4Gh"
+                    },
+                    "href": "https://api.spotify.com/v1/artists/0hCNtLu0JehylgoiP8L4Gh",
+                    "id": "0hCNtLu0JehylgoiP8L4Gh",
+                    "name": "Nicki Minaj",
+                    "type": "artist",
+                    "uri": "spotify:artist:0hCNtLu0JehylgoiP8L4Gh"
+                }
+            ],
+            "disc_number": 1,
+            "duration_ms": 199386,
+            "explicit": false,
+            "external_ids": {
+                "isrc": "USUM71409737"
+            },
+            "external_urls": {
+                "spotify": "https://open.spotify.com/track/0puf9yIluy9W0vpMEUoAnN"
+            },
+            "href": "https://api.spotify.com/v1/tracks/0puf9yIluy9W0vpMEUoAnN",
+            "id": "0puf9yIluy9W0vpMEUoAnN",
+            "is_local": false,
+            "is_playable": true,
+            "name": "Bang Bang",
+            "hashtags": ["#pop", "Soul"],
+            "popularity": 83,
+            "preview_url": null,
+            "track_number": 4,
+            "type": "track",
+            "uri": "spotify:track:0puf9yIluy9W0vpMEUoAnN",
+            "youtubeVideoId" : "YswhUHH6Ufc"
+        }
+]
