@@ -143,7 +143,7 @@ export function TrackDetailModal({ track, isOpen, onClose }) {
         </div>
         <div className="p-6 pt-4 text-center">
           <DialogHeader className="flex flex-col items-center text-center mb-4">
-            <DialogTitle className="text-2xl font-bold text-rose-400 whitespace-normal w-full text-wrap">
+            <DialogTitle className="text-2xl text-center font-bold text-rose-400 whitespace-normal w-full text-wrap">
               {track.name}
             </DialogTitle>
             <DialogDescription className="text-zinc-400 text-base mt-1">
