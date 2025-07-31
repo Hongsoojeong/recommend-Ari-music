@@ -144,7 +144,6 @@ export default function MusicPlayer() {
 
   return (
     <div className="min-h-screen bg-zinc-950 text-white p-4 md:p-6 lg:p-8 flex flex-col">
-      <h1 className="text-4xl font-extrabold text-center text-rose-400 mb-8">Ariana Grande Music Recommender</h1>
       <Card className="max-w-2xl mx-auto bg-zinc-900 border-zinc-800 shadow-lg rounded-xl overflow-hidden flex-grow">
         <CardHeader className="p-0 border-b border-zinc-800 relative">
           <img

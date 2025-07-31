@@ -306,7 +306,7 @@ export const popularTrackData = [
         "track_number": 2,
         "type": "track",
         "uri": "spotify:track:1hG4V53eR16jg7jVTNLOiX",
-        "youtubeVideoId": null
+        "youtubeVideoId": "B6_iQvaIjXw"
     },
   {
         "album": {
@@ -402,7 +402,7 @@ export const popularTrackData = [
         "track_number": 5,
         "type": "track",
         "uri": "spotify:track:7qQKhhQkLGxDKeF0EY2uH6",
-        "youtubeVideoId": null
+        "youtubeVideoId": "L8eRzOYhLuw"
     },    
     {
         "album": {
@@ -571,7 +571,7 @@ export const popularTrackData = [
         "track_number": 9,
         "type": "track",
         "uri": "spotify:track:0eanJEFFplPt5ByX33ms63",
-        "youtubeVideoId": null
+        "youtubeVideoId": "eB6txyhHFG4"
     },
         {
         "album": {
@@ -655,7 +655,7 @@ export const popularTrackData = [
         "track_number": 5,
         "type": "track",
         "uri": "spotify:track:5OCJzvD7sykQEKHH7qAC3C",
-        "youtubeVideoId": null
+        "youtubeVideoId": "kHLHSlExFis"
     },
         {
             "album": {
@@ -1593,7 +1593,7 @@ export const popularTrackData = [
         "track_number": 2,
         "type": "track",
         "uri": "spotify:track:4jwPNgd0ux1wE4TgETVIT3",
-        "youtubeVideoId": null
+        "youtubeVideoId": "iS1g8G_njx8"
     }    
 ]
 
